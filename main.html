@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Welcome to spotify</title>
+    <link rel="stylesheet" href="spotify_project.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Caveat:wght@600&family=Lato:ital,wght@1,300&family=Nunito+Sans:ital,wght@1,200&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <img src="spotify_logo.png" id="logo" alt="">
+        <ul>
+            <li>Spotify</li>
+            <li>Log in</li>
+            <li>sign up</li>
+        </ul>
+    </header>
+    <div class="container">
+        <h1>Best of Music</h1>
+        <div>
+            <div class="songlist">
+                <img src="covers/cover1.jpg" alt="">
+                <span class="songname">Srivalli</span>
+                <span class="timestamp">03:41</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+            <div class="songlist">
+                <img src="covers/cover2.jpg" alt="">
+                <span class="songname">chaka chak</span>
+                <span class="timestamp">04:29</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+            <div class="songlist">
+                <img src="covers/cover3.jpg" alt="">
+                <span class="songname">ranjha</span>
+                <span class="timestamp">03:48</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+            <div class="songlist">
+                <img src="covers/cover4.jpg" alt="">
+                <span class="songname">Rataan Lambiya</span>
+                <span class="timestamp">03:50</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+            <div class="songlist">
+                <img src="covers/cover5.jpg" alt="">
+                <span class="songname">Bekhalayi</span>
+                <span class="timestamp">06:11</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+            <div class="songlist">
+                <img src="covers/cover6.jpg" alt="">
+                <span class="songname">Mere Sohneya</span>
+                <span class="timestamp">03:13</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+            <div class="songlist">
+                <img src="covers/cover7.jpg" alt="">
+                <span class="songname">Teri Mitti</span>
+                <span class="timestamp">05:14</span>
+                <span id="play-icon"><img src="play_icon.png" id="song_play" alt=""></span>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <input type="range" id="ProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="spotify.gif.gif" id="master" alt=""><span id="mastersong">Srivalli</span>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/b3ae19db94.js" crossorigin="anonymous"></script>
+    <script src="spotify_project.js"></script>
+</body>
+</html>
